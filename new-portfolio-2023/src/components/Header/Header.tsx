@@ -19,16 +19,13 @@ function Header({}: Props) {
 					url='https://www.linkedin.com/in/maria-khan-tech/'
 					fgColor='gray'
 					bgColor='transparent'
+					target='_blank'
 				/>
 				<SocialIcon
-					url='https://www.linkedin.com/in/maria-khan-tech/'
+					url='https://github.com/MariaKhantech'
 					fgColor='gray'
 					bgColor='transparent'
-				/>
-				<SocialIcon
-					url='https://www.linkedin.com/in/maria-khan-tech/'
-					fgColor='gray'
-					bgColor='transparent'
+					target='_blank'
 				/>
 			</motion.div>
 
@@ -38,7 +35,7 @@ function Header({}: Props) {
 				transition={{
 					duration: 1.5,
 				}}
-				className='flex flex-row items-center text-gray-300 cursor-pointer'
+				className='flex flex-row items-center text-gray-400 cursor-pointer'
 			>
 				<SocialIcon
 					className='cursor-pointer'

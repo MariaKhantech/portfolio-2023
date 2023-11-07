@@ -12,7 +12,7 @@ function About({}: Props) {
 			transition={{ duration: 4 }}
 			className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'
 		>
-			<h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+			<h3 className='absolute top-24 uppercase tracking-[20px] text-gray-400 text-2xl'>
 				About
 			</h3>
 
@@ -30,7 +30,7 @@ function About({}: Props) {
 			<div className='space-y-10 px-0 md:px-10'>
 				<h4 className='text-4xl font-semibold'>
 					Here is a{' '}
-					<span className='underline decoration-[#ff45cd]/50'>little</span>{' '}
+					<span className='underline decoration-[#DA7b93]/50'>little</span>{' '}
 					background
 				</h4>
 				<p className='text-base'>

@@ -9,7 +9,7 @@ type Props = {};
 function Hero({}: Props) {
 	const [text, count] = useTypewriter({
 		words: [
-			'Hi, my name is Maria khan',
+			'Hi, my name is Maria Khan',
 			'LoveToIceSkate.tsx',
 			'<InnovativeAndCreative />',
 		],
@@ -28,7 +28,7 @@ function Hero({}: Props) {
 					alt='photo of maria khan'
 				/>
 				<div className='z-20'>
-					<h2 className='mt-5 text-sm uppercase text-gray-500 pb2 tracking-[15px]'>
+					<h2 className='mt-5 text-sm uppercase text-gray-400 pb2 tracking-[15px]'>
 						Software Engineer
 					</h2>
 					<h1 className='text-5xl lg:text-5xl font-semibold scroll-px-10'>
@@ -40,8 +40,8 @@ function Hero({}: Props) {
 						<Link href='#about'>
 							<button className='heroButton'>About</button>
 						</Link>
-						<Link href='#experiance'>
-							<button className='heroButton'>Experiance</button>
+						<Link href='#experience'>
+							<button className='heroButton'>Experience</button>
 						</Link>
 						<Link href='#skills'>
 							<button className='heroButton'>Skills</button>
